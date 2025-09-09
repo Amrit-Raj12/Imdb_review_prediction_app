@@ -81,19 +81,19 @@ user_input = st.text_area('Movie Review',
                          height=150)
 
 # Add example buttons
-col1, col2, col3 = st.columns(3)
+# col1, col2, col3 = st.columns(3)
 
-with col1:
-    if st.button('Positive Example'):
-        user_input = "This movie was absolutely fantastic! The acting was superb, the plot was engaging, and the cinematography was breathtaking. I loved every minute of it!"
+# with col1:
+#     if st.button('Positive Example'):
+#         user_input = "This movie was absolutely fantastic! The acting was superb, the plot was engaging, and the cinematography was breathtaking. I loved every minute of it!"
         
-with col2:
-    if st.button('Negative Example'):
-        user_input = "This movie was painfully boring and way too long. The story was predictable, the characters had no depth, and the dialogue felt forced. I kept waiting for something interesting to happen, but it never did."
+# with col2:
+#     if st.button('Negative Example'):
+#         user_input = "This movie was painfully boring and way too long. The story was predictable, the characters had no depth, and the dialogue felt forced. I kept waiting for something interesting to happen, but it never did."
 
-with col3:
-    if st.button('Clear'):
-        user_input = ""
+# with col1:
+#     if st.button('Clear'):
+#         user_input = ""
 
 # Prediction
 if st.button('🔍 Classify Sentiment'):
